@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'marola';
+  /* eu sempre esqueço de colocar o caminho da fonte aqui cuidado */
+  src: url('fnt/MAROLA__.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'monster';
+    /* eu sempre esqueço de colocar o caminho da fonte aqui cuidado */
+  src: url('fnt/Melted Monster.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'modern';
+    /* eu sempre esqueço de colocar o caminho da fonte aqui cuidado */
+  src: url('fnt/Modern Prestige DEMO.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  
+}
+h1 {
+  font-family: 'monster', sans-serif;
+}
+p {
+  font-family: 'marola', sans-serif;
+}
+h2 {
+  font-family: 'modern', sans-serif;
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+body {
+  background-image: radial-gradient(circle, green, grey 45%, red, black);
+  background-attachment: fixed;
+}
+.meio {
+  text-align: justify;
+  color: white;
+}
+p#color {
+  color: #FA8072;
+  text-align: justify;
+}
